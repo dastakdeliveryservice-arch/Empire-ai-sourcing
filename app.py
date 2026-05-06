@@ -4,7 +4,7 @@ import yagmail
 import requests
 import re
 from googlesearch import search
-
+api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 st.set_page_config(page_title="Empire AI - Domain Hunter", layout="wide")
 
 # --- INITIALIZATION ---
